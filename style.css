@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* background-color: rgb(4, 0, 53); */
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 65px;
+  /* background-color: rgb(15, 11, 66); */
+  background-color: rgb(20, 19, 19);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #fdd800;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  height: 70vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  /* background-color: red; */
+  font-size: 3rem;
+  margin: 70px;
+}
+
+/* .rightSection{
+    width: 100vw;
+} */
+
+.rightSection img {
+  width: 650px;
+  margin: -265px -224px;
+  overflow: hidden;
+}
+
+.yellow {
+  color: #fdd800;
+}
+
+.purple {
+  color: aqua;
+}
+
+#element {
+  color: rgb(82, 168, 248);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+}
+
+main hr {
+  border: 0;
+  background: rgb(82, 168, 248);
+  height: 1px;
+  margin: 40px 80px;
+}
+
+.secondSection h2 {
+  font-size: 30px;
+  height: 80vh;
+}
+
+.text-gray {
+  color: grey;
+}
+
+.box {
+  background:  rgb(82, 168, 248);
+  width: 80vw;
+  height: 2px;
+  margin: -400px 0;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.vertical {
+  height: 50px;
+  width: 1px;
+  background-color:  rgb(82, 168, 248);
+  margin: 0 105px;
+}
+
+.title {
+  font-size: 30px;
+  color: #fdd800;
+  font-family: "Montserrat", sans-serif;
+}
+
+.letter {
+  font-size: 30px;
+  color: #fdd800;
+  font-family: "Montserrat", sans-serif;
+}
+
+.vertical-title {
+    position: relative;
+    top: 10px;
+}
+
+.vertical-text {
+    position: relative;
+    font-size: 10px;
+    color: grey;
+    width: 150px;
+    top: 14px;
+}
+
+.image-1 {
+  width: 50px;
+  position: relative;
+  top: -65px;
+  right: 25px;
+}
+
+footer{
+    background-color: rgb(20, 19, 19);
+    position: relative;
+    bottom: -700px;
+    /* height: 250px;   */
+}
+
+.footer{
+  display: flex;
+  padding: 10px 45px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer > div{
+  width: 200px;
+}
+
+footer .footer-rights{
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+  /* padding: 15px 0; */
+}
+
+.leftSection .btn{
+  cursor: pointer;
+  border: none;
+  padding: 10px 8px;
+  border-radius: 7px;
+  background-color: rgb(55, 0, 255);
+  color: rgb(255, 255, 255);
+  /* font-family: "Poppins", sans-serif; */
+  /* border: 2px solid white; */
+}
+
+.leftSection .btn:hover {
+ /* background-color: white;
+ border: 2px solid black;
+ color: rgb(55, 0, 255); */
+ background-color: rgb(27, 1, 121);
+}
+
+.buttons{
+  padding: 5px 0;
+}
